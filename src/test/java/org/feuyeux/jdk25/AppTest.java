@@ -1,4 +1,4 @@
-package com.example.app;
+package org.feuyeux.jdk25;
 
 import org.junit.jupiter.api.Test;
 

@@ -4,7 +4,7 @@ setlocal ENABLEDELAYEDEXPANSION
 REM ================= Configuration =================
 REM Allow user override (if already set externally)
 if not defined JAVA_HOME set "JAVA_HOME=D:\zoo\jdk-25"
-set "MAIN_CLASS=com.example.app.App"
+set "MAIN_CLASS=org.feuyeux.jdk25.App"
 set "CP=target\classes"
 
 REM ================= Build Phase =================
