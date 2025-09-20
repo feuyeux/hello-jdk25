@@ -1,4 +1,8 @@
 ﻿# Default ignored files
 .idea/
 .vscode/
+.qoder/
 target/
+log/
+result/
+dependency-reduced-pom.xml
