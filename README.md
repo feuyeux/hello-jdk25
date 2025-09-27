@@ -29,3 +29,19 @@
 - JEP 519: [紧凑对象头（Compact Object Headers）](https://openjdk.org/jeps/519)
 - JEP 520: [JFR 方法计时与跟踪（JFR Method Timing & Tracing）](https://openjdk.org/jeps/520)
 - JEP 521: [代际 Shenandoah（Generational Shenandoah）](https://openjdk.org/jeps/521)
+
+----
+
+## JMH Benchmark
+
+- https://adoptium.net/temurin/releases `/Library/Java/JavaVirtualMachines/temurin-25.jdk/Contents/Home`
+- https://developers.redhat.com/products/openjdk/download
+
+
+```sh
+# 运行快速JMH基准测试
+./run-with-jmh.sh --quick
+
+# 运行GC比较
+./run-gc-comparison.sh
+```

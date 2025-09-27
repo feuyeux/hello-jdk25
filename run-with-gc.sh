@@ -5,8 +5,8 @@
 # Results are saved to log directory for analysis
 
 # export JAVA_HOME=$HOME/zoo/jdk-25.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
-/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home
+
 export MAVEN_OPTS="--add-opens=jdk.unsupported/sun.misc=ALL-UNNAMED"
 
 MAIN_CLASS="org.feuyeux.jdk25.language.ModuleImport"

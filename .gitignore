@@ -2,7 +2,7 @@
 .idea/
 .vscode/
 .qoder/
+.kiro/
 target/
-log/
-result/
+bench-log/
 dependency-reduced-pom.xml
